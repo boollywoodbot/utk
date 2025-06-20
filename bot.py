@@ -5,9 +5,9 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 # ✅ यहीं ये लाइनें डालो:
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = int(os.getenv("21905616"))
+API_HASH = os.getenv("0506d1a8b04f4c580c369b47c885bbd4")
+BOT_TOKEN = os.getenv("7735934554:AAGDkofvouEZa2--j66oX5v3tAJ6UAyx9w0")
 
 app = Client("utkarsh_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 DOWNLOAD_FOLDER = "downloads"
